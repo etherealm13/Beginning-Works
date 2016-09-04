@@ -1,0 +1,55 @@
+body{
+	background-color: #a3c2c2;
+	color:white;
+	text-align: center;
+}
+#message{
+	color: #333;
+	font-weight: bold;
+	font-family: Garamond;
+}
+#scoreTable{
+	width: 500px;
+	margin: 10px auto;
+	color: #444;
+}
+#scoreTable td{
+	background-color: #99cc00;
+	border: 1px solid #f5f5f5;
+	color: #222;
+	font-weight: bold;
+}
+img{
+	width: 100px;
+	height: 100px;	
+}
+label{
+	font-size: 26px;
+	color: #333;
+}
+.container{
+	border: 2px solid #286aa6;
+	width: 320px;
+	padding: 10px;
+	margin: 30px auto 10px auto;
+}
+.container td{
+	
+	width: 100px;
+	height: 100px;
+	background-color: #006080;
+}
+
+#startBtn, #restartBtn{
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #333;
+	background-color: #ffc13a;
+	color: #333;
+	font-weight: bold;
+	font-size: 18px;
+}
+#restartBtn{
+	background-color: #ff6666;
+}

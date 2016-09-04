@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel ="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1 id="message">Welcome! Let's kill Boredom.</h1>
+
+<table id="scoreTable">
+<thead>
+	<th>Games Played</th>
+	<th>Player X</th>
+	<th>Draw</th>
+	<th>Player O</th>
+</thead>
+	<tbody>
+		<tr>
+			<td id="noOfGames">
+				0
+			</td>
+			<td id="playerX" >
+				0
+			</td>
+			<td id="drawCount">
+				0
+			</td>
+			<td id="playerO">
+				0
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table class="container">
+<tr>
+	<td id="b1" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+	<td id="b2" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+	<td id="b3" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+</tr>
+
+<tr>
+	<td id="b4" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+	<td id="b5" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+	<td id="b6" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+</tr>
+
+<tr>
+	<td id="b7" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+	<td id="b8" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+	<td id="b9" type="button" class="tile" onclick="xnos(this.id)">
+		<img src="">
+	</td>
+</tr>
+
+</table>
+<br>
+<label>Play as <b>X</b></em></label><input type="radio" name="playerchoice" value="X" id="playerChoice">&ensp;&emsp;&emsp;&emsp;&emsp;
+<label>Play as <b>O</b></label><input type="radio" name="playerchoice" value="O" id="playerChoice"><br><br>
+<button type="button" id="startBtn" onclick ="startGame()">Start Game</button>
+<button type="button" id="restartBtn" onclick ="restart()">Reset</button>
+
+<script type= "text/javascript" src="game.js"></script>
+</body>
+</html>
