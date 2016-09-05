@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+
+<script type="text/javascript" src="script.js">
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>T9 Keypad</h1>
+	<div id="container">
+		<div id="display"></div>
+		<br>		
+	   	<button type="button" class="btn" id="1" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	   		<span class="numbers">1</span><br> .,'
+	   	</button>
+	    <button type="button" class="btn" id="2" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">2</span><br> abc
+	    </button>
+	    <button type="button" class="btn" id="3" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">3</span><br> def
+	    </button>
+	    <button type="button" class="btn" id="4" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">4</span><br> ghi
+	    </button>
+	 	<button type="button" class="btn" id="5" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	 		<span class="numbers">5</span><br> jkl
+	 	</button>
+	    <button type="button" class="btn" id="6" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">6</span><br> mno
+	    </button>
+	    <button type="button" class="btn" id="7" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">7</span><br> pqr
+	    </button>
+	    <button type="button" class="btn" id="8" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">8</span><br> stu
+	    </button>
+	    <button type="button" class="btn" id="9" onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">9</span><br> vxy
+	    </button>
+
+	    <button type="button" class="btn" id="10"onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers"></span>*<br>#
+	    </button>
+
+	    <button type="button" class="btn" id="11"onmousedown = "btnClicked(this.id)" onmouseup="btnReleased(this.id)">
+	    	<span class="numbers">0</span><br> z _ ] 
+	    </button>
+	    <button type="button" class="btn" id="del" onclick = "deleteEntry()"><span class="numbers"></span>del<br><br></button>
+	    <br>
+	</div>
+</body>
+</html>
