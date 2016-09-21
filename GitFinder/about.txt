@@ -2,7 +2,7 @@
  Created on : Sep 16th, 2016
  Author     : Alankar Anand
 
- Name of the project: Github Search
+ Name of the project: GitFinder - Github Search 
  Language Used: Javascript and Bootstrap ( UI )
  Overview: This single page app let's users search Github using username or repository name
 
