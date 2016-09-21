@@ -1,0 +1,37 @@
+#logo{
+    height: 30px;
+    width: 30px;
+}
+#search-box{
+    background: url("../images/bg.png");
+    margin-top: -20px;
+    padding: 20px 0px 40px 0px;
+}
+#searchBtn{
+    width: 50%;
+}
+.table img{
+	width: 60px;
+	height: 60px;
+}
+td,th{
+    text-align: left;
+    cursor: pointer;
+}
+body{
+    background: #fff;
+}
+#user-info{
+    margin: 30px;
+}
+#user-info img{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+#user-info span{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
