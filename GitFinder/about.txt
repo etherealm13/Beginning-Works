@@ -1,0 +1,21 @@
+/* 
+ Created on : Sep 16th, 2016
+ Author     : Alankar Anand
+
+ Name of the project: Github Search
+ Language Used: Javascript and Bootstrap ( UI )
+ Overview: This single page app let's users search Github using username or repository name
+
+ Features: 
+ - Search by username or repository name
+ - username search - Shows a user's logo and repositories 
+ - repository search - Shows all users having the repositories with their logos.
+   Clicking on the repository name takes user to the Github page of the repository.
+ - View open issues for each user's repositories
+ - Use custom labels to filter issues
+ - All calls are made to Github api using ajax only 
+ - no backtracking as all calls are made using ajax.
+ - Responsive UI
+ Github imposes a per page limit of 100 results. Here I'm showing only 10 results per page.
+ It can be changed by changing the perPageLimit variable to any number between 1-100
+ */
