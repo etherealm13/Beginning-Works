@@ -12,7 +12,7 @@
  - repository search - Shows all users having the repositories with their logos.
    Clicking on the repository name takes user to the Github page of the repository.
  - View open issues for each user's repositories
- - Use custom labels to filter issues
+ - Use labels to filter issues
  - All calls are made to Github api using ajax only 
  - no backtracking as all calls are made using ajax.
  - Responsive UI
