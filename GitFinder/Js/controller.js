@@ -47,7 +47,7 @@ document.getElementById('moreButton').style.display = "none";
 
 
 var submit = document.getElementById('search-form');
-submit.addEventListener("submit", function(e){
+submit.addEventListener("submit", function(event){
 	event.preventDefault();
 	document.getElementById("searchBtn").innerHTML = "Searching...";
 	getController();
