@@ -1,0 +1,353 @@
+body{
+	width: 100%;
+	height: auto;
+}
+
+#container{
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content-holder{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+	margin-bottom: 20px;
+	height: 70px;
+}
+
+#header-container{
+	width: auto;
+	height: 70px;
+	border-bottom: 2px solid #ddd;
+}
+
+#header div{
+	display: inline-block;
+}
+
+#page-header{
+	margin-left: 20px;
+	height: 70px;
+	border-bottom: 1px solid #f0626e;
+}
+
+#header-text{
+	color: #05aecc;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 100px;
+}
+
+.arrows{
+	float: right;
+	text-align: center;
+	border: 1px solid #ddd;
+	margin: 14px 0px 0px;
+}
+
+#arrow1, #arrow2{
+	width: 50px;
+	height: 55px;
+	background-color: #111;
+	font-family: Verdana;
+	font-size: 18px;
+	line-height: 60px;
+	color: #fff;
+	float: left;
+}
+
+#arrow1{
+	border-right: 1px solid #ddd;
+}
+
+#arrow1:hover, #arrow2:hover{
+	background-color: #f0626e;
+	cursor: pointer;
+}
+
+#prod-box{
+	position: relative;
+	height: 240px;
+	width: 190px;
+	display: inline-block;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+
+#box-container-1 #prod-box{
+	background: url("../images/img3.jpg");
+	background-size: 190px 295px;
+	background-position: left 0px top -60px;
+}
+
+#box-container-2 #prod-box{
+	background: url("../images/img2.jpg") no-repeat;
+	background-size: 350% 90%;
+	background-position: left -230px top;
+}
+
+#box-container-3 #prod-box{
+	background: url("../images/img4.jpg");
+	background-size: 120% 140%;
+	background-position: left -30px top -60px;
+	
+}
+#box-container-4 #prod-box{
+	background: url("../images/img1.jpg");
+	background-size: 150% 150%;
+	background-position: left -30px top -30px;
+}
+
+.box-container{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#box-container-4{
+	margin-right: -20px;
+}
+
+#prod-title-box{
+	bottom: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.9);
+	padding: 5px;
+	width: 95%;
+}
+
+#prod-title{
+	font-family: Myriad Pro;
+	font-size: 18px;
+	color: #fff;
+}
+
+#prod-details{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #b6b2b3;
+	width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+    height: 15px;
+    text-overflow: ellipsis;
+    transition: all 0.5s;
+}
+
+#prod-box:hover #prod-details{
+	cursor: pointer;
+	white-space: pre-wrap;
+	text-overflow: initial;
+	height: 70px;
+	text-align: justify;
+}
+
+#prod-discount-box{
+	position: absolute;
+	top: 10px;
+	width: 50px;
+	color: #fff;
+	background-color: #f0626e;
+	font-size: 12px;
+	font-family: Verdana;
+	padding: 5px;
+}
+
+#box-container-3 #prod-discount-box{
+	position: absolute;
+	top: 10px;
+	width: 50px;
+	color: #fff;
+	background-color: #05aecc;
+	font-size: 12px;
+	font-family: Verdana;
+	padding: 5px;
+}
+
+#prod-opt{
+	margin-top: -2px;
+}
+
+.prod-options{
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	padding: 7px 5px;
+	width: 35px;
+	height: 20px;
+	border: 1px solid #ddd;
+	display: inline-block;
+}
+
+#prod-opt1{
+	background: url("../images/test_sprite.png") no-repeat;
+	background-position: left -5px top;
+}
+
+#prod-opt2{
+	background: url("../images/test_sprite.png") no-repeat;
+	background-position: center top;
+}
+
+#prod-opt3{
+	background: url("../images/test_sprite.png") no-repeat;
+	background-position: right -5px top;
+}
+
+#prod-opt4{
+	float: left;
+	width: 40px;
+	padding: 5px;
+	text-align: center;
+	background-color: #f0626e;
+	border: 1px solid #ddd;
+	color: #fff;
+	font-family: 'Myriad Pro';
+	height: 24px;
+}
+
+#box-container-3 #prod-opt4{
+	background-color: #05aecc;
+}
+
+.currency{
+	font-size: 12px;
+	line-height: 10px;
+}
+.box-container sup{
+	font-size: 10px;
+}
+
+
+
+
+
+
+/* Start of Media Queries*/
+
+/* Landscape phones and down */
+
+@media only screen and (max-width: 321px) {
+	#container{
+		width: 300px;
+	}
+	#content-holder{
+		width: 80%;
+	}
+	#header{
+		width: 84%;
+	}
+	#page-header{
+		margin-left: 5px;
+	}
+	#header-container{
+		width: 96%;
+	}
+	#header-text{
+		font-size: 15px;
+	}
+	.arrows{
+		margin: 41px 0px 0px 1px;
+	}
+	#arrow1, #arrow2{
+		width: 22px;
+		height: 28px;
+		line-height: 30px;
+	}
+	#prod-title{
+		font-size: 15px;
+	}
+	#prod-details{
+		font-size: 10px;
+	}
+
+}
+
+
+
+/* Landscape phone to portrait tablet */
+
+@media (min-width: 322px) and (max-width: 768px) { 
+	#container{
+		width: 767px;
+	}
+	#content-holder{
+	    width: 65%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#content{
+		width: auto;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#header{
+		width: 91%;
+	}
+	#header-container{
+		width: 90%;
+	}
+	.box-container{
+		margin-bottom: 20px; 
+	}
+
+}
+
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 769px) and (max-width: 1279px) {
+	#container{
+		width: 800px;
+	}
+	#content-holder{
+		width: 90%;
+	}
+
+
+	#header{
+		width: 90%;
+	}
+	#header-container{
+		width: 96%;	
+	}
+	.arrows{
+		margin: 15px 0px 0px;
+	}
+	.box-container{
+		margin-bottom: 20px;
+	}
+	#prod-title{
+		font-size: 15px;
+	}
+	#prod-details{
+		font-size: 10px;
+	}
+}
+
+
+/* Large desktop */
+
+@media only screen and (min-width: 1280px){
+
+
+	#container{
+		width: 1200px;
+	}
+	#content-holder{
+		width: 80%;
+	}
+	#header{
+		width: 88%;
+	}
+	#header-container{
+		width: 100%;
+	}
+}
