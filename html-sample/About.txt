@@ -1,0 +1,1 @@
+This is a sample of a webpage created using html and css. The design is responsive across multiple devices.
