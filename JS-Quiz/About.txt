@@ -1,0 +1,6 @@
+This is a Single Page Simple Quiz implemented using Vanilla JS and jQuery.
+Username is captured and displayed in the results screen (even though the form is not submitted) .
+Ripple effect on click of mouse is implemented using css and jQuery.
+Results Graph is created and displayed using Google Charts.
+On the same page, list of questions attempted showcasing what was entered as the answer and the actual answer is displayed.
+More questions can be added in the questions.js file.
