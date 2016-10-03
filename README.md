@@ -8,3 +8,5 @@ This contains some of my initial works.
 3) Tic Tac Toe - Simple implementation of Tic Tac Toe game for two players.
 
 4) HTML sample - A responsive sample of a product page designed using HTML and CSS. Screenshot has also been provided.
+
+5) JS Single Page Quiz - A single page implementation of mcq quiz using JS and jQuery. Results Graph is created and displayed using Google Charts. Screenshot has been provided.  
