@@ -1,0 +1,22 @@
+/*  Ripple effect */
+
+.ripple {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #2ECC71;
+    transform: scale(0);
+    position: absolute;
+    opacity: 0;
+}
+
+.rippleEffect {
+    animation: rippleDrop 0.7s linear;
+}
+
+@keyframes rippleDrop {
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}

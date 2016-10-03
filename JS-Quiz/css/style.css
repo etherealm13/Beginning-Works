@@ -1,0 +1,113 @@
+#app{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#app > h1{
+	font-weight: bold;
+	font-family: 'comic sans ms', serif;
+	text-shadow: 1px 1px 1px #222 ;
+	color: #F6D258;		
+}
+
+#app-content{
+	font-size: 25px;
+	padding-left: 5%;
+	color: #555;
+	font-weight: lighter;
+}
+
+body{
+	background: url("../images/bg3.png");
+}
+
+.chart { 
+  min-height: 450px;
+}
+
+#chart-container{
+	margin-top: 15%;
+}
+
+.correctAnswer > span{
+	color: #87D37C !important; /* Some shade of green */
+	font-weight: bold;
+}
+
+.logo{
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'comic sans ms', serif;
+	text-shadow: 1px 1px 1px #3498DB ;
+	color: #F6D258;	
+}
+
+.logo ~ small{
+	font-size: 22px;	
+	color: #22A7F0;
+}
+
+#name-form{
+	margin-top: 5%;
+}
+
+#name-box{
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+}
+
+.navbar{
+	height: 70px;
+}
+
+.navbar-header span{
+	font-family: 'comic sans ms', serif;
+	text-shadow: 1px 1px 1px #3498DB ;
+	color: #F6D258;
+	position: relative;
+	top: 5px;
+}
+
+.opt{
+	margin-right: 10px !important;
+}
+
+.refreshBtn{
+	padding: 5px 10px;
+	position: relative;
+	top: 16px;
+}
+
+.refreshBtn > a{
+	color: #eee !important
+}
+
+#results-preview{
+	padding: 5px;
+	text-align: center;
+}
+
+#results-preview >h3 > span{
+	margin-right: 10px;
+}
+
+#results-content{
+	padding-left: 20px;
+}
+
+.userAnswer > span{
+	color: #EC644B !important;
+	font-weight: bold;	
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .logo{
+		font-size: 50px;
+	}
+	.navbar-header{
+		width: 90%;
+	}
+}

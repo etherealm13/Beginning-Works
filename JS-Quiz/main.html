@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>inQUIZitive</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ripple.css">
+		<!-- Stylesheet for Ripple effect -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- jQuery library -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    	<!-- Bootstrap Files -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+</head>
+
+<body>
+<div class="pseudo-container"></div>
+	<nav class="navbar navbar-inverse">
+	    <span class=" refreshBtn pull-right"><a href="javascript:history.go(0)" class="glyphicon glyphicon-home pull-right"></a></span>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <span >
+                    inQUIZitive!
+                </span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+		<div id = "get-name" class="text-center">
+		<div id="logo-content">
+		<span class="logo">inQUIZitive !</span><br><small>Your one stop site for all things fun.</small>
+		</div>
+			<form class="form-inline" id="name-form">
+				<input type="text" class="form-control input-lg" id="name-box" placeholder="Enter thy name..." onkeyup="getName()" autofocus required>		
+			</form>
+		</div>
+				<div id="app" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+				<div id="results-preview"></div>
+				<div class="row">
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="results-content"></div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="chart-container">
+						<div id="content"></div>
+					</div>
+				</div>
+	</div>
+
+	<script src="https://www.gstatic.com/charts/loader.js"></script>
+		<!-- Google Charts CDN -->
+
+	<script src = "js/index.js"></script>
+		<!-- Main controller JS -->
+
+	<script src = "js/questions.js"></script>
+		<!-- Contains All the Quiz Questions -->
+	<script src = "js/next-question.js"></script>
+		<!-- To load the next Question -->
+	<script src = "js/result.js"></script>
+		<!-- Loads the result-->
+
+	<script src = "js/ripple effect.js"></script>
+		<!-- JS for ripple effect -->
+
+	<script src = "js/drawChart.js"></script>
+		<!-- Draws the Google Chart-->
+</body>
+
+</html>
